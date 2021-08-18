@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: com.server.library.Server
+Class-Path: fastjson-1.2.78.jar
+

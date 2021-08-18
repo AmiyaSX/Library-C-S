@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="LibraryClient:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/LibraryClient_jar</output-path>
+    <root id="root">
+      <element id="archive" name="LibraryClient.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/src/resources/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="LibraryClient" />
+      </element>
+      <element id="library" level="project" name="fastjson-1.2.78" />
+    </root>
+  </artifact>
+</component>
