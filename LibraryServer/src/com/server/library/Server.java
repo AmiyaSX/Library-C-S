@@ -1,6 +1,5 @@
 package com.server.library;
 
-import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.server.msgutil.MsgHandle;
 import com.server.msgutil.MsgPacket;
@@ -45,7 +44,7 @@ public class Server {
         }
 
         msgHandle = new MsgHandle();
-        System.out.println("正在尝试连接客户端，允许多个客户端同时连接，当与最后一个客户端正常断开连接时服务中断...");
+        System.out.println("正在尝试连接客户端，允许多个客户端同时连接");
         do {
             Socket socket = serverSocket.accept();
             connection++;

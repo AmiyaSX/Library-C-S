@@ -160,10 +160,10 @@ public class MsgHandle implements MsgHandleFunction {
             case EXIT:
                 System.out.println("第" + connection + "个客户端已经断开");
                 connection --;
-                if (connection == 0) {
-                    new Socket("192.168.56.1",PORT);
-                    connection--;
-                }
+//                if (connection == 0) {
+//                    new Socket("1.15.72.112",PORT);
+//                    connection--;
+//                }
                 return"exit";
         }
         return msg;

@@ -8,6 +8,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="fastjson-1.2.78" level="project" />
-    <orderEntry type="library" name="json-lib-2.4-jdk15" level="project" />
+    <orderEntry type="library" name="LibraryClient_jar" level="project" />
+    <orderEntry type="library" name="LibraryServer_jar" level="project" />
+    <orderEntry type="library" name="fastjson-1.2.781" level="project" />
   </component>
 </module>

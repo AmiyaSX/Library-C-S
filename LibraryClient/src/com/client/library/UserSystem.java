@@ -232,10 +232,7 @@ public class UserSystem {
         }
         if (bookCustomType == null) {
             System.out.println("该书不存在！还书失败！");
-            return;
         }
-
-
 
     }
 

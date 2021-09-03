@@ -27,10 +27,10 @@ public class Client {
         String msgDecode(MsgPacket msgPacket);
     }
 
-    public static void main(String[] args) throws IOException, ClassNotFoundException {
-        socket = new Socket("192.168.1.8", 9999);
+    public static void main(String[] args) throws IOException {
+        socket = new Socket("1.15.72.112", 22);
         connect = true;
-        System.out.println("与服务器192.168.56.1:9999连接成功");
+        System.out.println("与服务器1.15.72.112:22连接成功");
         outputStream = socket.getOutputStream();
         inputStream = socket.getInputStream();
         dataInputStream = new DataInputStream(inputStream);
